@@ -25,7 +25,9 @@ I like to change the `CompileConnectionString` in `src\RepositorySql\Common.fs` 
 Once I have a batch of changes I pull them into the `dacpac` using **Schema Compare** in in the Database project.
 
 
-Artifacts
-----------
+Note
+----
 
-Why is there an `Artifacts/Server.1.0.nupkg` file after a build - we use [Octopus Deploy](https://octopus.com) so I wanted to also demo this.
+What's the `Artifacts/Server.1.0.nupkg` file after the build? - We use [Octopus Deploy](https://octopus.com) so I wanted to also demo this.
+
+The nunit folder is because I can't get the nunit plugin from npm to work.
