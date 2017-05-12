@@ -1,0 +1,8 @@
+System.ValueTuple
+FSharp.Core
+FSharp.Data.SqlClient
+Suave
+Fable.JsonConverter
+Newtonsoft.Json
+Argu
+SQLProvider

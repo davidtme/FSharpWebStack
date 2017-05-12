@@ -1,0 +1,13 @@
+type file
+id Server
+authors David Teasdale
+requireLicenseAcceptance false
+copyright Copyright (c) 2017 David Teasdale
+summary
+    Server
+description
+    Server
+version 1.0
+files
+    ../../Build/Server/**/*.* ==> .
+    ../Client/wwwroot/**/*.* ==> wwwroot
