@@ -291,3 +291,4 @@ __pycache__/
 /packages
 /.vs
 /src/Database/*.dbmdl
+/Temp
