@@ -7,7 +7,7 @@ Run build.cmd, this should create the following folder:
 
 Create a new database on you sql server and [apply](https://docs.microsoft.com/en-us/sql/relational-databases/data-tier-applications/deploy-a-data-tier-application) the Database.dacpac
 
-Create a new file in the root called run.cmd with the following contents:
+Create a new file in the root called `run.cmd` with the following contents:
 
 ```
 build\Server\Server --home-folder ../../src/Client/wwwroot --conntection-string "Data Source=.; Integrated Security=True; Initial Catalog=SampleData"
